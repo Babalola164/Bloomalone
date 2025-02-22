@@ -26,4 +26,3 @@ jobs:
         run: |
           vercel build
           vercel deploy --prod
-```
