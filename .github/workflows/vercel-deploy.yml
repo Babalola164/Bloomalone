@@ -8,10 +8,10 @@ runs-on: ubuntu-latest
 steps:
 - uses: actions/checkout@v2
 env:
-VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+VERCEL_TOKEN: ${{wP4wousfEHapCiGipcCalthW }}
+VERCEL_ORG_ID: ${{ nRqFHCbZNiZxhfFKrSdt07t0 }}
+VERCEL_PROJECT_ID: ${{ prj_IxOyAhkPtCVqRG1VWkGMw5SW86AA }}
 
--run: vercel build $$ vercel deploy --prod 
+- run: vercel build $$ vercel deploy --prod 
 
 ---
