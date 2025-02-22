@@ -11,6 +11,6 @@ VERCEL_TOKEN: ${{wP4wousfEHapCiGipcCalthW }}
 VERCEL_ORG_ID: ${{ nRqFHCbZNiZxhfFKrSdt07t0 }}
 VERCEL_PROJECT_ID: ${{ prj_IxOyAhkPtCVqRG1VWkGMw5SW86AA }}
 
--run: vercel build $$ vercel deploy --prod 
+- run: vercel build $$ vercel deploy --prod 
 
----
+
