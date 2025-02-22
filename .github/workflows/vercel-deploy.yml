@@ -11,8 +11,7 @@ runs-on: ubuntu-latest
 steps:
 - name: Checkout code
 uses: actions/checkout@v2
-
-```  - name: Install Vercel CLI
+- name: Install Vercel CLI
     run: npm install -g vercel
 
   - name: Build
