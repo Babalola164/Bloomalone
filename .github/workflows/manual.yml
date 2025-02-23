@@ -1,4 +1,4 @@
-```
+
 name: Vercel Deployment
 
 on:
@@ -31,4 +31,4 @@ jobs:
           VERCEL_ORG_ID: ${{ inputs.vercel-org-id }}
           VERCEL_PROJECT_ID: ${{ inputs.vercel-project-id }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
+
